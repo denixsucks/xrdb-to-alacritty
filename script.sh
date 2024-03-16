@@ -8,7 +8,7 @@ die() {
   exit 1
 }
 
-DEFAULT_UNIX_CONFIG="$HOME/.config/alacritty/alacritty.yml"
+DEFAULT_UNIX_CONFIG="$HOME/.config/alacritty/alacritty.toml"
 
 # Get config file
 if [ -n "$1" ]; then
